@@ -1,0 +1,18 @@
+Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
+C1;C2;C4;C6;C8;C10;C13;C14,0.1uF,Capacitor_SMD:C_0603_1608Metric,8,Samsung,CL10B104KO8WPNC,Digikey,1276-6582-1-ND
+C3;C15;C12,1uF,Capacitor_SMD:C_0603_1608Metric,3,Samsung,CL10B105KA8NNNC,Digikey,1276-1184-1-ND
+C17;C18;C19;C20,4700nF DNS,Capacitor_SMD:C_0603_1608Metric,4,-,-,-,-
+C5;C7;C9;C11;C16,10uF,Capacitor_SMD:C_0805_2012Metric,5,Murata Electronics,GRM21BR71A106KA73K,Digikey,490-14381-1-ND
+J1;J2;J4;J6,Conn_01x03_Male,Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical,4,JST Sales America Inc.,BM03B-SRSS-TBT(LF)(SN),Digikey,455-2957-1-ND
+J9,Conn_01x01_Male,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,1,-,-,-,-
+J12,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,-,-,-
+J5,Conn_01x05_Male,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,1,-,-,-,-
+J10,Conn_01x14,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,1,-,-,-,-
+J3;J7,Conn_01x14_Male,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,2,-,-,-,-
+J11,Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,-,-,-,-
+J8,Conn_02x07_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical,1,-,-,-,-
+FID1;FID2,FIDUCIAL_1MM,Fiducial:Fiducial_0.5mm_Mask1mm,2,-,-,-,-
+D1,WS2813-MINI,LED_WS2813-mini:LED_WS2813-MINI-2,1,Worldsemi,WS2813-Mini(WS2813-3535),-,-
+RN1,22,Resistor_SMD:R_Array_Convex_4x0603,1,Bourns Inc.,CAT16-220J4LF,Digikey,CAT16-220J4LFCT-ND
+SW1,SW_SPST_KMR2,Switch_Tact_SMD:SW_SPST_KMR2,1,C&K,KMR211NG LFS,Digikey,CKN10243CT-ND
+U1,TXB0104PWR,digikey-footprints:TSSOP-14_W4.4mm,1,Texas Instruments,TXB0104PWR,Digikey,296-21929-1-ND

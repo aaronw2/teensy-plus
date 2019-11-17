@@ -5,12 +5,12 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Teensy Plus"
+Date "2019-11-16"
+Rev "1.2"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Copyright 2019 Aaron Williams"
+Comment2 "aaron.w2@gmail.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -51,12 +51,6 @@ Wire Wire Line
 	1100 1200 1400 1200
 Wire Wire Line
 	1100 1700 1400 1700
-Wire Wire Line
-	1100 1800 1400 1800
-Wire Wire Line
-	1100 1900 1400 1900
-Wire Wire Line
-	1100 2000 1400 2000
 Wire Wire Line
 	1100 2100 1400 2100
 Wire Wire Line
@@ -159,12 +153,6 @@ Text Label 1200 5600 0    50   ~ 0
 VUSB
 Wire Wire Line
 	1100 1300 1900 1300
-Wire Wire Line
-	1100 1400 1900 1400
-Wire Wire Line
-	1100 1500 1900 1500
-Wire Wire Line
-	1100 1600 1900 1600
 $Comp
 L Connector:Conn_01x03_Male J1
 U 1 1 5E22380B
@@ -192,19 +180,19 @@ Text Label 4200 3850 0    50   ~ 0
 Wire Wire Line
 	4600 4050 4200 4050
 Text Label 4200 3950 0    50   ~ 0
-IO4
+IO1
 Wire Wire Line
 	4600 4150 4200 4150
 Text Label 5200 3950 0    50   ~ 0
-IO5
+IO2
 Wire Wire Line
 	4600 4250 4200 4250
 Text Label 4200 4050 0    50   ~ 0
-IO6
+IO3
 Wire Wire Line
 	4600 4350 4200 4350
 Text Label 5200 4050 0    50   ~ 0
-IO7
+IO4
 Wire Wire Line
 	4600 4450 4200 4450
 Text Label 4200 4150 0    50   ~ 0
@@ -219,9 +207,7 @@ Text Label 4200 4350 0    50   ~ 0
 IO12
 Text Label 5200 4350 0    50   ~ 0
 IO13
-Wire Wire Line
-	1900 1700 1600 1700
-Text Label 1600 1700 0    50   ~ 0
+Text Label 1750 1700 0    50   ~ 0
 IO23
 $Comp
 L power:GND #PWR010
@@ -260,17 +246,6 @@ F 3 "" H 1800 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 2850 1800 2850
-$Comp
-L power:+BATT #PWR013
-U 1 1 5E24ECF3
-P 1600 2750
-F 0 "#PWR013" H 1600 2600 50  0001 C CNN
-F 1 "+BATT" H 1615 2923 50  0000 C CNN
-F 2 "" H 1600 2750 50  0001 C CNN
-F 3 "" H 1600 2750 50  0001 C CNN
-	1    1600 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 2750 1600 2750
 $Comp
@@ -582,7 +557,7 @@ Connection ~ 5300 1750
 Wire Wire Line
 	5600 1550 5850 1550
 Text Label 5600 1550 0    50   ~ 0
-IO1_HR
+IO5_HR
 $Comp
 L Device:C C6
 U 1 1 5E2A149D
@@ -657,7 +632,7 @@ Connection ~ 5300 2500
 Wire Wire Line
 	5600 2300 5850 2300
 Text Label 5600 2300 0    50   ~ 0
-IO2_HR
+IO6_HR
 $Comp
 L Device:C C8
 U 1 1 5E2A5715
@@ -793,11 +768,11 @@ Connection ~ 2500 3150
 Wire Wire Line
 	4250 1400 4600 1400
 Text Label 4350 1400 0    50   ~ 0
-IO1_HR
+IO5_HR
 Wire Wire Line
 	4250 1500 4600 1500
 Text Label 4350 1500 0    50   ~ 0
-IO2_HR
+IO6_HR
 Wire Wire Line
 	4250 1600 4600 1600
 $Comp
@@ -858,7 +833,7 @@ L dk_Logic-Translators-Level-Shifters:TXB0104PWR U1
 U 1 1 5E3911B9
 P 2300 1500
 F 0 "U1" H 2500 1000 60  0000 C CNN
-F 1 "TXB0104PWR" H 1800 1000 60  0000 C CNN
+F 1 "TXB0104PWR" H 1950 1000 60  0000 C CNN
 F 2 "digikey-footprints:TSSOP-14_W4.4mm" H 2500 1700 60  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 2500 1800 60  0001 L CNN
 F 4 "296-21929-1-ND" H 2500 1900 60  0001 L CNN "Digi-Key_PN"
@@ -1119,9 +1094,9 @@ DO_R
 Text Label 4300 4650 0    50   ~ 0
 DO_R
 Text Label 4300 4750 0    50   ~ 0
-IO2_HR
+IO6_HR
 Text Label 4300 4850 0    50   ~ 0
-IO1_HR
+IO5_HR
 Text Label 4300 4950 0    50   ~ 0
 IO0_HR
 Wire Wire Line
@@ -1280,9 +1255,9 @@ Wire Wire Line
 Text Label 2750 1300 0    50   ~ 0
 IO0_H
 Text Label 2750 1400 0    50   ~ 0
-IO1_H
+IO5_H
 Text Label 2750 1500 0    50   ~ 0
-IO2_H
+IO6_H
 Text Label 3650 2450 0    50   ~ 0
 DO
 Wire Wire Line
@@ -1296,11 +1271,11 @@ IO0_H
 Wire Wire Line
 	2150 5150 2450 5150
 Text Label 2150 5150 0    50   ~ 0
-IO1_H
+IO5_H
 Wire Wire Line
 	2150 5350 2450 5350
 Text Label 2150 5350 0    50   ~ 0
-IO2_H
+IO6_H
 $Comp
 L Connector_Generic:Conn_01x02 J12
 U 1 1 5ECB5FD0
@@ -1334,4 +1309,114 @@ F 3 "" H 6150 3700 50  0001 C CNN
 	1    6150 3700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 1700 1900 1700
+Wire Wire Line
+	1100 1600 1400 1600
+Wire Wire Line
+	1100 1500 1400 1500
+Wire Wire Line
+	1100 1400 1400 1400
+Wire Wire Line
+	1500 1800 1500 1400
+Wire Wire Line
+	1500 1400 1900 1400
+Wire Wire Line
+	1100 1800 1500 1800
+Wire Wire Line
+	1900 1500 1600 1500
+Wire Wire Line
+	1600 1500 1600 1900
+Wire Wire Line
+	1100 1900 1600 1900
+Wire Wire Line
+	1700 2000 1700 1600
+Wire Wire Line
+	1700 1600 1900 1600
+Wire Wire Line
+	1100 2000 1700 2000
+$Comp
+L fiducial:FIDUCIAL_1MM FID1
+U 1 1 5DDF5DE2
+P 1050 7050
+F 0 "FID1" H 1153 7156 60  0000 L CNN
+F 1 "FIDUCIAL_1MM" H 1153 7050 60  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1153 6944 60  0000 L CNN
+F 3 "" H 1050 7050 60  0000 C CNN
+	1    1050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L fiducial:FIDUCIAL_1MM FID2
+U 1 1 5DDF6B20
+P 1050 7250
+F 0 "FID2" H 1153 7356 60  0000 L CNN
+F 1 "FIDUCIAL_1MM" H 1153 7250 60  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1153 7144 60  0000 L CNN
+F 3 "" H 1050 7250 60  0000 C CNN
+	1    1050 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0113
+U 1 1 5DE13647
+P 1650 4050
+F 0 "#PWR0113" H 1650 3900 50  0001 C CNN
+F 1 "+3V3" H 1665 4223 50  0000 C CNN
+F 2 "" H 1650 4050 50  0001 C CNN
+F 3 "" H 1650 4050 50  0001 C CNN
+	1    1650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5DE13BA5
+P 2350 4050
+F 0 "#PWR0114" H 2350 3900 50  0001 C CNN
+F 1 "+5V" H 2365 4223 50  0000 C CNN
+F 2 "" H 2350 4050 50  0001 C CNN
+F 3 "" H 2350 4050 50  0001 C CNN
+	1    2350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DE14B4A
+P 2000 4050
+F 0 "#FLG0101" H 2000 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 4223 50  0000 C CNN
+F 2 "" H 2000 4050 50  0001 C CNN
+F 3 "~" H 2000 4050 50  0001 C CNN
+	1    2000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DE15516
+P 2650 4050
+F 0 "#FLG0102" H 2650 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 4223 50  0000 C CNN
+F 2 "" H 2650 4050 50  0001 C CNN
+F 3 "~" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4050 2350 4050
+Wire Wire Line
+	1650 4050 2000 4050
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5DE26887
+P 1400 1050
+F 0 "#FLG0103" H 1400 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 1223 50  0000 C CNN
+F 2 "" H 1400 1050 50  0001 C CNN
+F 3 "~" H 1400 1050 50  0001 C CNN
+	1    1400 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1400 1050
+NoConn ~ 1600 2750
+NoConn ~ 1900 3150
 $EndSCHEMATC
