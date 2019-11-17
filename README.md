@@ -1,18 +1,19 @@
 Teensy Plus
-Revision 1.1
+Revision 1.2
 
 Copyright (C) 2019 by Aaron Williams
 
 This board is designed to be mounted to a PJRC Teensy 3.2 or 4.0 board.
-This board brings out the I/Os of the Teensy and provides a 3V to 5V
-level shifter and a WS2813mini NeoPixel in order to drive up to four
-channels of NeoPixels.
+It brings out the I/Os of the Teensy and provides a 3V to 5V level shifter
+and a WS2813mini NeoPixel in order to drive up to four channels of
+NeoPixels.  The 5V channels should be compatible with the FastLED library.
 
 Four connectors are designed to be mounted on the bottom of the board
 where they will connect directly to a Teensy board.
 
 J3, J5, J7 and J9 are actually a single connector that plugs into all
-of the holes of the Teensy.
+of the holes of the Teensy. J9 is optional. If not connected, that pin
+is available for 5V on both the Teensy and this board.
 
 IO0, IO1, IO2 and IO3 are passed to the level shifter and IO23 is
 connected to the enable pin of the level shifter.  IO3 then goes to
@@ -25,10 +26,10 @@ J8 brings provides 3.3V, ground and IO4 through IO15.  The pinout is:
 J8:
 1.  3.3V
 2.  GND
-3.  IO4
-4.  IO5
-5.  IO6
-6.  IO7
+3.  IO1
+4.  IO2
+5.  IO3
+6.  IO4
 7.  IO8
 8.  IO9
 9.  IO10
@@ -48,9 +49,9 @@ low-pass filter.
 Pins 1-4 pass through the level shifter, however, pin1 is an output only
 that is connected to the output of the WS2813mini.
 J10:
-1.  DO  (5V, output of WS2813mini)
-2.  IO2 (5V, bi-directional)
-3.  IO1 (5V, bi-directional)
+1.  DO  (5V, output of WS2813mini) (IO7)
+2.  IO6 (5V, bi-directional)
+3.  IO5 (5V, bi-directional)
 4.  IO0 (5V, bi-directional)
 5.  IO16 (3.3v, bi-directional)
 6.  IO17 (3.3v, bi-directional)
@@ -85,18 +86,18 @@ J1:
 
 J2:
 1. +5V
-2. IO1 (5V, bi-directional, 22ohm, optional cap)
+2. IO5 (5V, bi-directional, 22ohm, optional cap)
 3. Ground
 
 
 J4:
 1. +5V
-2. IO2 (5V, bi-directional, 22ohm, optional cap)
+2. IO6 (5V, bi-directional, 22ohm, optional cap)
 3. Ground
 
 J6:
 1. +5V
-2. D0 (5V, output, 22ohm, optional cap, output of WS2813mini)
+2. IO7 (5V, output from WS2813, IO7, 22ohm, optional cap)
 3. Ground
 
 Since this board covers the Teensy, an additional programming button has
@@ -112,4 +113,4 @@ amount of current at 3.3V.
 Level shifter:
 A TXB0104PWR level shifter is used to provide 5V I/O.  IO23 is connected
 directly to the enable pin and must be pulled high in order to enable the
-5V I/O.
+5V I/O. Pulling IO23 low will tri-state the bi-directional level shifter.
