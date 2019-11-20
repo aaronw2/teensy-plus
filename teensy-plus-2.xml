@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/aaronw/kicad/Projects/Ralph/teensy-plus/teensy-plus.sch</source>
+    <source>/home/aaronw/kicad/Projects/Ralph/teensy-plus-2/teensy-plus-2.sch</source>
     <date>Sat 16 Nov 2019 11:50:11 PM PST</date>
     <tool>Eeschema 5.1.4-5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -10,7 +10,7 @@
         <company/>
         <rev>1.2</rev>
         <date>2019-11-16</date>
-        <source>teensy-plus.sch</source>
+        <source>teensy-plus-2.sch</source>
         <comment number="1" value="Copyright 2019 Aaron Williams"/>
         <comment number="2" value="aaron.w2@gmail.com"/>
         <comment number="3" value=""/>
