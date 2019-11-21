@@ -4,11 +4,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Teensy Plus 2"
+Title "Neo Teensy"
 Date "2019-11-21"
 Rev "3.0"
 Comp ""
-Comment1 "Copyright 2019 Aaron Williams"
+Comment1 "Copyright (C) 2019 Aaron Williams"
 Comment2 "aaron.w2@gmail.com"
 Comment3 ""
 Comment4 ""
@@ -855,7 +855,7 @@ $EndComp
 Wire Wire Line
 	4150 5750 4600 5750
 Text Label 4300 4650 0    50   ~ 0
-DO_R
+DO
 Text Label 4300 4750 0    50   ~ 0
 IO6_H
 Text Label 4300 4850 0    50   ~ 0

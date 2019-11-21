@@ -855,7 +855,7 @@ $EndComp
 Wire Wire Line
 	4150 5750 4600 5750
 Text Label 4300 4650 0    50   ~ 0
-DO_R
+DO
 Text Label 4300 4750 0    50   ~ 0
 IO6_H
 Text Label 4300 4850 0    50   ~ 0
