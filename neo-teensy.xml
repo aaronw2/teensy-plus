@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/aaronw/kicad/Projects/Ralph/teensy-plus-2/teensy-plus-2.sch</source>
+    <source>/home/aaronw/kicad/Projects/Ralph/neo-teensy/neo-teensy.sch</source>
     <date>Sat 16 Nov 2019 11:50:11 PM PST</date>
     <tool>Eeschema 5.1.4-5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">

@@ -4,11 +4,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Teensy Plus 2"
-Date "2019-11-16"
-Rev "2.0"
+Title "Neo Teensy"
+Date "2019-11-21"
+Rev "3.0"
 Comp ""
-Comment1 "Copyright 2019 Aaron Williams"
+Comment1 "Copyright (C) 2019 Aaron Williams"
 Comment2 "aaron.w2@gmail.com"
 Comment3 ""
 Comment4 ""
