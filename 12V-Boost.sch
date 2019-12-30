@@ -25,7 +25,8 @@ F 4 "TI" H 0 0 50 0001 C CNN "MFR"
 F 5 "TPS55340RTER" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "296-37677-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=296-37677-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "IC REG BOOST ADJ 5.25A 16WQFN" H 0 0 50 0001 C CNN "DESC"
 	1    4950 3000
 	1    0    0    -1  
 $EndComp
@@ -41,7 +42,8 @@ F 4 "Vishay Dale" H 0 0 50 0001 C CNN "MFR"
 F 5 "IHLP1212BZER3R3M11" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "541-2567-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/product-detail/en/IHLP1212BZER3R3M11/541-2567-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "FIXED IND 3.3UH 2.7A 61 MOHM SMD" H 0 0 50 0001 C CNN "DESC"
 	1    4950 1900
 	0    -1   -1   0   
 $EndComp
@@ -57,7 +59,8 @@ F 4 "ON" H 0 0 50 0001 C CNN "MFR"
 F 5 "SS24FL" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "SS24FLCT-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=SS24FLCT-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "DIODE SCHOTTKY 40V 2A SOD123F" H 0 0 50 0001 C CNN "DESC"
 	1    6300 2450
 	-1   0    0    1   
 $EndComp
@@ -66,14 +69,15 @@ L Device:C C201
 U 1 1 5BAB109C
 P 2800 2750
 F 0 "C201" H 2915 2796 50 0000 L CNN
-F 1 "6.8uF" H 2915 2705 50 0000 L CNN
+F 1 "22uF" H 2915 2705 50 0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2838 2600 50 0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2800 2750 50 0001 C CNN
-F 4 "TDK" H 0 0 50 0001 C CNN "MFR"
-F 5 "C1608X5R1E685K080AC" H 0 0 50 0001 C CNN "MPN"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A226MO7JZNC.jsp" H 2800 2750 50 0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0 0 50 0001 C CNN "MFR"
+F 5 "CL10A226MO7JZNC" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "445-14145-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 7 "1276-7076-1-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "https://www.digikey.com/products/en?keywords=1276-7076-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 22UF 16V X5R 0603" H 2800 2750 50 0001 C CNN "DESC"
 	1    2800 2750
 	1    0    0    -1  
 $EndComp
@@ -82,14 +86,15 @@ L Device:C C202
 U 1 1 5BAB11A4
 P 3200 2750
 F 0 "C202" H 3315 2796 50 0000 L CNN
-F 1 "100nF" H 3315 2705 50 0000 L CNN
+F 1 "0.1uF" H 3315 2705 50 0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 2600 50 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp" H 3200 2750 50 0001 C CNN
+F 3 "~" H 3200 2750 50 0001 C CNN
 F 4 "Samsung" H 0 0 50 0001 C CNN "MFR"
 F 5 "CL10B104KO8WPNC" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "1276-6582-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=1276-6582-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 0.1UF 16V X7R 0603" H 0 0 50 0001 C CNN "DESC"
 	1    3200 2750
 	1    0    0    -1  
 $EndComp
@@ -98,14 +103,15 @@ L Device:R R201
 U 1 1 5BAB1260
 P 3700 2950
 F 0 "R201" H 3770 2996 50 0000 L CNN
-F 1 "18.2k" H 3770 2905 50 0000 L CNN
+F 1 "18.7K" H 3770 2905 50 0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 2950 50 0001 C CNN
-F 3 "~" H 3700 2950 50 0001 C CNN
-F 4 "Vishay Dale" H 0 0 50 0001 C CNN "MFR"
-F 5 "CRCW060318K2FKEA" H 0 0 50 0001 C CNN "MPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3700 2950 50 0001 C CNN
+F 4 "Yageo" H 0 0 50 0001 C CNN "MFR"
+F 5 "RC0603FR-0718K7L" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "541-18.2KHCT-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 7 "311-18.7KHRCT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0718K7L/311-18.7KHRCT-ND/729940" H 0 0 50 0001 C CNN "SPURL"
+F 9 "RES SMD 18.7K OHM 1% 1/10W 0603" H 0 0 50 0001 C CNN "DESC"
 	1    3700 2950
 	1    0    0    -1  
 $EndComp
@@ -121,7 +127,8 @@ F 4 "Samsung" H 0 0 50 0001 C CNN "MFR"
 F 5 "CL10B223KB8WPNC" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "1276-6534-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=1276-6534-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 0.022UF 50V X7R 0603" H 0 0 50 0001 C CNN "DESC"
 	1    3950 3550
 	1    0    0    -1  
 $EndComp
@@ -137,7 +144,8 @@ F 4 "Kemet" H 0 0 50 0001 C CNN "MFR"
 F 5 "C0603C821J5RACTU" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "399-9127-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=399-9127-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 820PF 50V X7R 0603" H 0 0 50 0001 C CNN "DESC"
 	1    5850 3600
 	1    0    0    -1  
 $EndComp
@@ -146,14 +154,15 @@ L Device:R R202
 U 1 1 5BAB141D
 P 6150 3000
 F 0 "R202" V 5943 3000 50 0000 C CNN
-F 1 "1.69k" V 6034 3000 50 0000 C CNN
+F 1 "1.62k" V 6034 3000 50 0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 3000 50 0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6150 3000 50 0001 C CNN
-F 4 "Vishay" H 0 0 50 0001 C CNN "MFR"
-F 5 "CRCW06031K69FKEA" H 0 0 50 0001 C CNN "MPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6150 3000 50 0001 C CNN
+F 4 "Yageo" H 0 0 50 0001 C CNN "MFR"
+F 5 "RC0603FR-071K62L" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "541-1.69KHCT-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 7 "311-1.62KHRCT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071K62L/311-1.62KHRCT-ND/729816" H 0 0 50 0001 C CNN "SPURL"
+F 9 "RES SMD 1.62K OHM 1% 1/10W 0603" H 0 0 50 0001 C CNN "DESC"
 	1    6150 3000
 	0    1    1    0   
 $EndComp
@@ -164,12 +173,13 @@ P 6400 3600
 F 0 "C205" H 6515 3646 50 0000 L CNN
 F 1 "47nF" H 6515 3555 50 0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 3450 50 0001 C CNN
-F 3 "" H 6400 3600 50 0001 C CNN
-F 4 "Murata" H 0 0 50 0001 C CNN "MFR"
-F 5 "GRM188R61H474KA12D" H 0 0 50 0001 C CNN "MPN"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B473KB8WPNC.jsp" H 6400 3600 50 0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0 0 50 0001 C CNN "MFR"
+F 5 "CL10B473KB8WPNC" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "490-11994-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 7 "1276-6540-1-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B473KB8WPNC/1276-6540-1-ND/" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 0.047UF 50V X7R 0603" H 0 0 50 0001 C CNN "DESC"
 	1    6400 3600
 	1    0    0    -1  
 $EndComp
@@ -178,14 +188,15 @@ L Device:C C206
 U 1 1 5BAB1684
 P 7550 2850
 F 0 "C206" H 7665 2896 50 0000 L CNN
-F 1 "22uF" H 7665 2805 50 0000 L CNN
+F 1 "47uF" H 7665 2805 50 0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 7588 2700 50 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL32B226MOJNNNE.jsp" H 7550 2850 50 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL32A476KOJNNNE.jsp" H 7550 2850 50 0001 C CNN
 F 4 "Samsung" H 0 0 50 0001 C CNN "MFR"
-F 5 "CL32B226MOJNNNE" H 0 0 50 0001 C CNN "MPN"
+F 5 "CL32A476KOJNNNE" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "1276-3395-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 7 "1276-3376-1-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL32A476KOJNNNE/1276-3376-1-ND/3891462" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 47UF 16V X5R 1210" H 7550 2850 50 0001 C CNN "DESC"
 	1    7550 2850
 	1    0    0    -1  
 $EndComp
@@ -196,12 +207,13 @@ P 8000 2850
 F 0 "C207" H 8115 2896 50 0000 L CNN
 F 1 "1uF" H 8115 2805 50 0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 2700 50 0001 C CNN
-F 3 "~" H 8000 2850 50 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B105KA8NNNC.jsp" H 8000 2850 50 0001 C CNN
 F 4 "Samsung" H 0 0 50 0001 C CNN "MFR"
-F 5 "CL10B105KP8NNNC" H 0 0 50 0001 C CNN "MPN"
+F 5 "CL10B105KA8NNNC" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "1276-1946-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 7 "1276-1184-1-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "https://www.digikey.com/products/en?keywords=1276-1184-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "CAP CER 1UF 25V X7R 0603" H 0 0 50 0001 C CNN "DESC"
 	1    8000 2850
 	1    0    0    -1  
 $EndComp
@@ -241,12 +253,12 @@ $EndComp
 $Comp
 L power:GND #PWR0204
 U 1 1 5BAB6969
-P 8000 3750
-F 0 "#PWR0204" H 8000 3500 50 0001 C CNN
-F 1 "GND" H 8005 3577 50 0000 C CNN
-F 2 "" H 8000 3750 50 0001 C CNN
-F 3 "" H 8000 3750 50 0001 C CNN
-	1    8000 3750
+P 5850 3750
+F 0 "#PWR0204" H 5850 3500 50 0001 C CNN
+F 1 "GND" H 5855 3577 50 0000 C CNN
+F 2 "" H 5850 3750 50 0001 C CNN
+F 3 "" H 5850 3750 50 0001 C CNN
+	1    5850 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -261,7 +273,8 @@ F 4 "Infineon" H 0 0 50 0001 C CNN "MFR"
 F 5 "BSS214NWH6327XTSA1" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "BSS214NWH6327XTSA1CT-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=BSS214NWH6327XTSA1CT-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "MOSFET N-CH 20V 1.5A SOT323" H 0 0 50 0001 C CNN "DESC"
 	1    8300 4100
 	1    0    0    -1  
 $EndComp
@@ -288,7 +301,8 @@ F 4 "TE" H 0 0 50 0001 C CNN "MFR"
 F 5 "CRG0603F100K" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "A106046CT-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=A106046CT-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "RES SMD 100K OHM 1% 1/10W 0603" H 0 0 50 0001 C CNN "DESC"
 	1    8050 4250
 	1    0    0    -1  
 $EndComp
@@ -304,7 +318,8 @@ F 4 "Vishay Dale" H 0 0 50 0001 C CNN "MFR"
 F 5 "CRCW060310K0FKEC" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "541-2979-1-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=541-2979-1-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 0 0 50 0001 C CNN "DESC"
 	1    7100 3250
 	1    0    0    -1  
 $EndComp
@@ -320,7 +335,8 @@ F 4 "Vishay Dale" H 0 0 50 0001 C CNN "MFR"
 F 5 "CRCW060386K6FKEA" H 0 0 50 0001 C CNN "MPN"
 F 6 "Digikey" H 0 0 50 0001 C CNN "SPR"
 F 7 "541-86.6KHCT-ND" H 0 0 50 0001 C CNN "SPN"
-F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 8 "https://www.digikey.com/products/en?keywords=541-86.6KHCT-ND" H 0 0 50 0001 C CNN "SPURL"
+F 9 "RES SMD 86.6K OHM 1% 1/10W 0603" H 7100 2600 50 0001 C CNN "DESC"
 	1    7100 2600
 	1    0    0    -1  
 $EndComp
@@ -338,12 +354,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0202
 U 1 1 5D68E6BB
-P 2500 3900
-F 0 "#FLG0202" H 2500 3975 50 0001 C CNN
-F 1 "PWR_FLAG" H 2500 4073 50 0000 C CNN
-F 2 "" H 2500 3900 50 0001 C CNN
-F 3 "~" H 2500 3900 50 0001 C CNN
-	1    2500 3900
+P 2350 3900
+F 0 "#FLG0202" H 2350 3975 50 0001 C CNN
+F 1 "PWR_FLAG" H 2350 4073 50 0000 C CNN
+F 2 "" H 2350 3900 50 0001 C CNN
+F 3 "~" H 2350 3900 50 0001 C CNN
+	1    2350 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -381,6 +397,7 @@ F 5 "-" H 0 0 50 0001 C CNN "MPN"
 F 6 "-" H 0 0 50 0001 C CNN "SPR"
 F 7 "-" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+F 9 "-" H 0 0 50 0001 C CNN "DESC"
 	1    8700 2650
 	1    0    0    -1  
 $EndComp
@@ -483,8 +500,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 2400 2800 2400
 Wire Wire Line
-	2350 3900 2500 3900
-Wire Wire Line
 	8000 2450 8500 2450
 Wire Wire Line
 	8100 4100 8050 4100
@@ -511,8 +526,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 2450 6450 2450
 Wire Wire Line
-	2500 3900 2800 3900
-Wire Wire Line
 	7700 2450 8000 2450
 Wire Wire Line
 	6350 4100 8050 4100
@@ -524,6 +537,8 @@ Wire Wire Line
 	8500 2750 8400 2750
 Wire Wire Line
 	8400 2750 8400 3900
+Wire Wire Line
+	2350 3900 2800 3900
 Connection ~ 4050 2400
 Connection ~ 3200 2400
 Connection ~ 2800 2400
@@ -548,9 +563,10 @@ Connection ~ 5050 3900
 Connection ~ 7100 3750
 Connection ~ 7100 2750
 Connection ~ 7100 2450
-Connection ~ 2500 3900
 Connection ~ 7700 2450
 Connection ~ 8500 2450
 Connection ~ 8050 4100
+Connection ~ 2350 3900
+Connection ~ 5850 3750
 NoConn ~ 5500 3900
 $EndSCHEMATC

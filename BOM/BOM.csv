@@ -1,15 +1,28 @@
-Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
-C2;C4;C6;C8;C13;C1,0.1uF,Capacitor_SMD:C_0603_1608Metric,6,Samsung,CL10B104KO8WPNC,Digikey,1276-6582-1-ND
-C3;C12,1uF,Capacitor_SMD:C_0603_1608Metric,2,Samsung,CL10B105KA8NNNC,Digikey,1276-1184-1-ND
-C5;C7;C9;C11;C10;C14,10uF,Capacitor_SMD:C_0805_2012Metric,6,Murata Electronics,GRM21BR71A106KA73K,Digikey,490-14381-1-ND
-J1;J2;J4;J6,Conn_01x03_Male,Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical,4,JST Sales America Inc.,BM03B-SRSS-TBT(LF)(SN),Digikey,455-2957-1-ND
-J9,Conn_01x01_Male,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,1,-,-,-,-
-J12,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,-,-,-
-J5,Conn_01x05_Male,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,1,-,-,-,-
-J10,Conn_01x14,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,1,-,-,-,-
-J3;J7,Conn_01x14_Male,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,2,-,-,-,-
-J11,Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,-,-,-,-
-J8,Conn_02x07_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical,1,-,-,-,-
-FID1;FID2,FIDUCIAL_1MM,Fiducial:Fiducial_0.5mm_Mask1mm,2,-,-,-,-
-D1,WS2813-MINI,LED_WS2813-mini:LED_WS2813-MINI-2,1,Worldsemi,WS2813-Mini(WS2813-3535),-,-
-U1,SN74AHCT125N,Package_DFN_QFN:Texas_S-PVQFN-N14,1,Texas Instruments,SN74AHCT125RGYR,Digikey,296-13910-1-ND
+Refs,Value,Footprint,Quantity,DESC,MFR,MPN,SPR,SPN,SPURL
+L201,3.3uH,Aaron:L_Vishay_IHLP-1212,1,FIXED IND 3.3UH 2.7A 61 MOHM SMD,Vishay Dale,IHLP1212BZER3R3M11,Digikey,541-2567-1-ND,https://www.digikey.com/product-detail/en/IHLP1212BZER3R3M11/541-2567-1-ND
+U201,TPS55340-Q1,Aaron:QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias,1,IC REG BOOST ADJ 5.25A 16WQFN,TI,TPS55340RTER,Digikey,296-37677-1-ND,https://www.digikey.com/products/en?keywords=296-37677-1-ND
+C2;C13;C8;C4;C1;C202,0.1uF,Capacitor_SMD:C_0603_1608Metric,6,CAP CER 0.1UF 16V X7R 0603,Samsung,CL10B104KO8WPNC,Digikey,1276-6582-1-ND,https://www.digikey.com/products/en?keywords=1276-6582-1-ND
+C3;C12;C6;C207,1uF,Capacitor_SMD:C_0603_1608Metric,4,CAP CER 1UF 25V X7R 0603,Samsung,CL10B105KA8NNNC,Digikey,1276-1184-1-ND,https://www.digikey.com/products/en?keywords=1276-1184-1-ND
+C203,22nF,Capacitor_SMD:C_0603_1608Metric,1,CAP CER 0.022UF 50V X7R 0603,Samsung,CL10B223KB8WPNC,Digikey,1276-6534-1-ND,https://www.digikey.com/products/en?keywords=1276-6534-1-ND
+C201,22uF,Capacitor_SMD:C_0603_1608Metric,1,CAP CER 22UF 16V X5R 0603,Samsung Electro-Mechanics,CL10A226MO7JZNC,Digikey,1276-7076-1-ND,https://www.digikey.com/products/en?keywords=1276-7076-1-ND
+C205,47nF,Capacitor_SMD:C_0603_1608Metric,1,CAP CER 0.047UF 50V X7R 0603,Samsung Electro-Mechanics,CL10B473KB8WPNC,Digikey,1276-6540-1-ND,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B473KB8WPNC/1276-6540-1-ND/
+C204,820pF,Capacitor_SMD:C_0603_1608Metric,1,CAP CER 820PF 50V X7R 0603,Kemet,C0603C821J5RACTU,Digikey,399-9127-1-ND,https://www.digikey.com/products/en?keywords=399-9127-1-ND
+C14;C9;C11;C10,10uF,Capacitor_SMD:C_0805_2012Metric,4,CAP CER 10UF 10V X7R 0805,Murata Electronics,GRM21BR71A106KA73K,Digikey,490-14381-1-ND,https://www.digikey.com/products/en?keywords=490-14381-1-ND
+C206,47uF,Capacitor_SMD:C_1210_3225Metric,1,CAP CER 47UF 16V X5R 1210,Samsung,CL32A476KOJNNNE,Digikey,1276-3376-1-ND,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL32A476KOJNNNE/1276-3376-1-ND/3891462
+J9,Conn_01x01_Male,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,1,-,-,-,-,-,-
+J12,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,-,-,-,-,-
+J201,Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,-,-,-,-,-
+J5,Conn_01x05_Male,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,1,-,-,-,-,-,-
+J10,Conn_01x14,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,1,-,-,-,-,-,-
+J3;J7,Conn_01x14_Male,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,2,-,-,-,-,-,-
+J11,Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,-,-,-,-,-,-
+J8,Conn_02x07_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical,1,-,-,-,-,-,-
+D201,SS24FL,Diode_SMD:D_SOD-123F,1,DIODE SCHOTTKY 40V 2A SOD123F,ON,SS24FL,Digikey,SS24FLCT-ND,https://www.digikey.com/products/en?keywords=SS24FLCT-ND
+D1,WS2813-MINI,LED_WS2813-mini:LED_WS2813-MINI-2,1,"RGB 620~625nm Red, 515~525nm Green, 465~475nm Blue SMD-6 Light Emitting Diodes (LED) RoHS",Worldsemi,WS2813-Mini(WS2813-3535),LCSC,C189639,https://lcsc.com/product-detail/Others_WS2813-Mini-WS2813-3535_C189639.html
+U1,SN74AHCT125N,Package_DFN_QFN:Texas_S-PVQFN-N14,1,IC BUF NON-INVERT 5.5V 14VQFN,Texas Instruments,SN74AHCT125RGYR,Digikey,296-13910-1-ND,https://www.digikey.com/products/en?keywords=296-13910-1-ND
+Q201,BSS214NW,Package_TO_SOT_SMD:SOT-323_SC-70,1,MOSFET N-CH 20V 1.5A SOT323,Infineon,BSS214NWH6327XTSA1,Digikey,BSS214NWH6327XTSA1CT-ND,https://www.digikey.com/products/en?keywords=BSS214NWH6327XTSA1CT-ND
+R202,1.62k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 1.62K OHM 1% 1/10W 0603,Yageo,RC0603FR-071K62L,Digikey,311-1.62KHRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0603FR-071K62L/311-1.62KHRCT-ND/729816
+R205,100k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 100K OHM 1% 1/10W 0603,TE,CRG0603F100K,Digikey,A106046CT-ND,https://www.digikey.com/products/en?keywords=A106046CT-ND
+R204,10k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 10K OHM 1% 1/10W 0603,Vishay Dale,CRCW060310K0FKEC,Digikey,541-2979-1-ND,https://www.digikey.com/products/en?keywords=541-2979-1-ND
+R201,18.7K,Resistor_SMD:R_0603_1608Metric,1,RES SMD 18.7K OHM 1% 1/10W 0603,Yageo,RC0603FR-0718K7L,Digikey,311-18.7KHRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0603FR-0718K7L/311-18.7KHRCT-ND/729940
+R203,86.6k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 86.6K OHM 1% 1/10W 0603,Vishay Dale,CRCW060386K6FKEA,Digikey,541-86.6KHCT-ND,https://www.digikey.com/products/en?keywords=541-86.6KHCT-ND
