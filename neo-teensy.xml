@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/aaronw/kicad/Projects/Ralph/neo-teensy/neo-teensy.sch</source>
-    <date>Sun 29 Dec 2019 06:48:53 PM PST</date>
+    <date>Wed 01 Jan 2020 01:59:58 AM PST</date>
     <tool>Eeschema 5.1.5-5.1.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Neo Teensy</title>
         <company/>
-        <rev>3.1.1</rev>
-        <date>2019-11-30</date>
+        <rev>3.3</rev>
+        <date>2019-12-31</date>
         <source>neo-teensy.sch</source>
         <comment number="1" value="Copyright (C) 2019 Aaron Williams"/>
         <comment number="2" value="aaron.w2@gmail.com"/>
@@ -435,6 +435,114 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DFD829C</tstamp>
     </comp>
+    <comp ref="RN1">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_8x0602</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C12.pdf</datasheet>
+      <fields>
+        <field name="DESC">RES ARRAY 15 RES 47K OHM 1506</field>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">EXB-Q16P473J</field>
+        <field name="SPN">U6473CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/panasonic-electronic-components/EXB-Q16P473J/U6473CT-ND/672854</field>
+      </fields>
+      <libsource lib="Aaron" part="R_Network15" description="15 resistor network, star topology, bussed resistors, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E209C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST_KMR2</value>
+      <footprint>Aaron:SW_SPST_KMR2</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/c-k/KMR211GLFS/401-1426-1-ND/550461</datasheet>
+      <fields>
+        <field name="DESC">SWITCH TACTILE SPST-NO 0.05A 32V</field>
+        <field name="MFR">C&amp;K</field>
+        <field name="MPN">KMR211NG LFS</field>
+        <field name="SPN">CKN10243CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/c-k/KMR211NG-LFS/CKN10243CT-ND/2176494</field>
+      </fields>
+      <libsource lib="switch_tact_smt" part="SW_SPST_KMR2" description="SPST SMD  KMR2 SMD micro button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1B6A26</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="fiducial" part="FIDUCIAL_1MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23BFEB</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="fiducial" part="FIDUCIAL_1MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25E2B1</tstamp>
+    </comp>
+    <comp ref="FID5">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="fiducial" part="FIDUCIAL_1MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25E8E6</tstamp>
+    </comp>
+    <comp ref="FID6">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="fiducial" part="FIDUCIAL_1MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25EEE9</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2A1EFD</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2A3180</tstamp>
+    </comp>
     <comp ref="U201">
       <value>TPS55340-Q1</value>
       <footprint>Aaron:QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias</footprint>
@@ -502,7 +610,7 @@
     <comp ref="C202">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8WPNC.jsp</datasheet>
+      <datasheet>~</datasheet>
       <fields>
         <field name="DESC">CAP CER 0.1UF 16V X7R 0603</field>
         <field name="MFR">Samsung</field>
@@ -643,22 +751,6 @@
       <sheetpath names="/12-Boost/" tstamps="/5DDEA108/"/>
       <tstamp>5BAD0965</tstamp>
     </comp>
-    <comp ref="R205">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204&amp;DocType=DS&amp;DocLang=English</datasheet>
-      <fields>
-        <field name="DESC">RES SMD 100K OHM 1% 1/10W 0603</field>
-        <field name="MFR">TE</field>
-        <field name="MPN">CRG0603F100K</field>
-        <field name="SPN">A106046CT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/products/en?keywords=A106046CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/12-Boost/" tstamps="/5DDEA108/"/>
-      <tstamp>5BAD2572</tstamp>
-    </comp>
     <comp ref="R204">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -735,6 +827,57 @@
         <pin num="15" name="SW" type="input"/>
         <pin num="16" name="SW" type="input"/>
         <pin num="17" name="AGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aaron" part="R_Network15">
+      <aliases>
+        <alias>EXB-Q16P104J</alias>
+        <alias>EXB-Q16P102J</alias>
+        <alias>EXB-Q16P472J</alias>
+        <alias>EXB-Q16P223J</alias>
+        <alias>EXB-Q16P101J</alias>
+        <alias>EXB-Q16P334J</alias>
+        <alias>EXB-Q16P224J</alias>
+        <alias>EXB_Q16P473J</alias>
+        <alias>EXB_Q16P333J</alias>
+        <alias>EXB_Q16P682J</alias>
+        <alias>EXB_Q16P221J</alias>
+        <alias>EXB-Q16P332J</alias>
+        <alias>EXB-Q16P153J</alias>
+        <alias>EXB-Q16P222J</alias>
+        <alias>EXB-Q16P331J</alias>
+        <alias>EXB-Q16P103J</alias>
+        <alias>EXB-Q16P474J</alias>
+        <alias>EXB-Q16P471J</alias>
+      </aliases>
+      <description>15 resistor network, star topology, bussed resistors, small symbol</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C12.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+        <fp>R_Array_Convex_8x0602</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network15</field>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_8x0602</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+        <pin num="10" name="R9" type="passive"/>
+        <pin num="11" name="R10" type="passive"/>
+        <pin num="12" name="R11" type="passive"/>
+        <pin num="13" name="R12" type="passive"/>
+        <pin num="14" name="R13" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="common" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x01_Male">
@@ -1062,10 +1205,29 @@
         <field name="Value">FIDUCIAL_1MM</field>
       </fields>
     </libpart>
+    <libpart lib="switch_tact_smt" part="SW_SPST_KMR2">
+      <description>SPST SMD  KMR2 SMD micro button</description>
+      <docs>https://www.digikey.com/product-detail/en/c-k/KMR211GLFS/401-1426-1-ND/550461</docs>
+      <footprints>
+        <fp>aaron:SW_SPST_KMR2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST_KMR2</field>
+        <field name="Footprint">Aaron:SW_SPST_KMR2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="12v-booster-rescue">
       <uri>/home/aaronw/kicad/Projects/12v-booster/12v-booster-rescue.lib</uri>
+    </library>
+    <library logical="Aaron">
+      <uri>/home/aaronw/kicad/library/aaron/Aaron.lib</uri>
     </library>
     <library logical="Connector">
       <uri>/usr/share/kicad/library/Connector.lib</uri>
@@ -1088,267 +1250,294 @@
     <library logical="fiducial">
       <uri>/home/aaronw/kicad/library/library-kicad/fiducial.lib</uri>
     </library>
+    <library logical="switch_tact_smt">
+      <uri>/home/aaronw/kicad/library/aaron/switch_tact_smt.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="/IO10">
-      <node ref="J3" pin="12"/>
-      <node ref="J8" pin="9"/>
-    </net>
-    <net code="2" name="/IO5">
-      <node ref="J3" pin="7"/>
-      <node ref="J8" pin="7"/>
-    </net>
-    <net code="3" name="/IO2">
-      <node ref="J8" pin="5"/>
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="4" name="FET_CTL">
-      <node ref="J10" pin="6"/>
-      <node ref="R205" pin="1"/>
-      <node ref="Q201" pin="1"/>
-      <node ref="J7" pin="5"/>
-    </net>
-    <net code="5" name="/IO16">
-      <node ref="J8" pin="14"/>
-      <node ref="J7" pin="4"/>
-    </net>
-    <net code="6" name="/IO0">
-      <node ref="J3" pin="2"/>
-      <node ref="J8" pin="3"/>
-    </net>
-    <net code="7" name="/Program">
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="8" name="GND">
-      <node ref="C4" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U201" pin="11"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="J7" pin="13"/>
-      <node ref="C204" pin="2"/>
-      <node ref="J8" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C206" pin="2"/>
-      <node ref="U201" pin="6"/>
-      <node ref="C207" pin="2"/>
-      <node ref="C203" pin="2"/>
-      <node ref="J11" pin="1"/>
-      <node ref="C12" pin="2"/>
-      <node ref="J11" pin="3"/>
-      <node ref="J11" pin="5"/>
-      <node ref="U201" pin="17"/>
-      <node ref="U201" pin="13"/>
-      <node ref="U201" pin="12"/>
-      <node ref="J11" pin="7"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C201" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J201" pin="2"/>
-      <node ref="C202" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="J5" pin="3"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R201" pin="2"/>
-      <node ref="R205" pin="2"/>
-      <node ref="R204" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="J10" pin="13"/>
-      <node ref="Q201" pin="2"/>
-      <node ref="D1" pin="5"/>
-      <node ref="J12" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="J10" pin="1"/>
-      <node ref="D1" pin="6"/>
-    </net>
-    <net code="9" name="/IO22">
-      <node ref="J10" pin="11"/>
+    <net code="1" name="/IO22">
       <node ref="J7" pin="10"/>
+      <node ref="J10" pin="11"/>
     </net>
-    <net code="10" name="/IO21">
-      <node ref="J10" pin="10"/>
+    <net code="2" name="/DO">
+      <node ref="J10" pin="5"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="3" name="/IO8_H">
+      <node ref="U1" pin="8"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="4" name="/IO21">
       <node ref="J7" pin="9"/>
+      <node ref="J10" pin="10"/>
     </net>
-    <net code="11" name="/IO20">
+    <net code="5" name="/IO20">
       <node ref="J10" pin="9"/>
       <node ref="J7" pin="8"/>
     </net>
-    <net code="12" name="/IO19">
-      <node ref="J10" pin="8"/>
-      <node ref="J7" pin="7"/>
-    </net>
-    <net code="13" name="/IO18">
+    <net code="6" name="/IO18">
       <node ref="J10" pin="7"/>
       <node ref="J7" pin="6"/>
     </net>
-    <net code="14" name="/IO1">
-      <node ref="J3" pin="3"/>
-      <node ref="J8" pin="4"/>
+    <net code="7" name="/IO19">
+      <node ref="J7" pin="7"/>
+      <node ref="J10" pin="8"/>
     </net>
-    <net code="15" name="/IO15">
-      <node ref="J8" pin="13"/>
-      <node ref="J7" pin="3"/>
+    <net code="8" name="/IO23">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J7" pin="11"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="16" name="/IO14">
-      <node ref="J8" pin="12"/>
-      <node ref="J7" pin="2"/>
+    <net code="9" name="+5V">
+      <node ref="J11" pin="4"/>
+      <node ref="J11" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J10" pin="14"/>
+      <node ref="J12" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J7" pin="14"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U201" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="L201" pin="1"/>
+      <node ref="U201" pin="3"/>
+      <node ref="J9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C201" pin="1"/>
     </net>
-    <net code="17" name="/IO13">
-      <node ref="J7" pin="1"/>
+    <net code="11" name="FET_CTL">
+      <node ref="Q201" pin="1"/>
+      <node ref="RN1" pin="9"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J10" pin="6"/>
     </net>
-    <net code="18" name="/ON_OFF">
-      <node ref="J5" pin="5"/>
+    <net code="12" name="/IO16">
+      <node ref="J8" pin="14"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="J7" pin="4"/>
     </net>
-    <net code="19" name="/IO12">
-      <node ref="J3" pin="14"/>
-      <node ref="J8" pin="11"/>
-    </net>
-    <net code="20" name="/IO11">
-      <node ref="J3" pin="13"/>
-      <node ref="J8" pin="10"/>
-    </net>
-    <net code="21" name="/IO8_H">
-      <node ref="J10" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="22" name="/IO9_H">
-      <node ref="J10" pin="3"/>
+    <net code="13" name="/IO9_H">
       <node ref="U1" pin="11"/>
+      <node ref="J10" pin="3"/>
     </net>
-    <net code="23" name="/DO">
-      <node ref="D1" pin="3"/>
-      <node ref="J10" pin="5"/>
+    <net code="14" name="/DIN">
+      <node ref="D1" pin="4"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="24" name="/IO6_H">
+    <net code="15" name="/IO6_H">
       <node ref="J10" pin="4"/>
       <node ref="U1" pin="3"/>
     </net>
-    <net code="25" name="/IO4">
+    <net code="16" name="/IO15">
+      <node ref="RN1" pin="8"/>
+      <node ref="J8" pin="13"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="17" name="/IO14">
+      <node ref="RN1" pin="6"/>
+      <node ref="J8" pin="12"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C12" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="U201" pin="6"/>
+      <node ref="R204" pin="2"/>
+      <node ref="Q201" pin="2"/>
+      <node ref="J201" pin="1"/>
+      <node ref="U201" pin="17"/>
+      <node ref="U201" pin="13"/>
+      <node ref="U201" pin="12"/>
+      <node ref="U201" pin="11"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="5"/>
+      <node ref="D1" pin="6"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J10" pin="13"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J7" pin="13"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J11" pin="5"/>
+      <node ref="J11" pin="7"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="19" name="/IO12">
+      <node ref="J8" pin="11"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="20" name="/IO11">
+      <node ref="J8" pin="10"/>
+      <node ref="J3" pin="13"/>
+      <node ref="RN1" pin="4"/>
+    </net>
+    <net code="21" name="/IO10">
+      <node ref="RN1" pin="3"/>
+      <node ref="J8" pin="9"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="22" name="/IO2">
+      <node ref="RN1" pin="14"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="23" name="/IO1">
+      <node ref="J8" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="RN1" pin="13"/>
+    </net>
+    <net code="24" name="/IO0">
+      <node ref="RN1" pin="12"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="25" name="/IO3">
+      <node ref="J3" pin="5"/>
+      <node ref="RN1" pin="15"/>
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="26" name="+3V3">
+      <node ref="J7" pin="12"/>
+      <node ref="RN1" pin="16"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J11" pin="8"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J10" pin="12"/>
+    </net>
+    <net code="27" name="Net-(RN1-Pad10)">
+      <node ref="TP3" pin="1"/>
+      <node ref="RN1" pin="10"/>
+    </net>
+    <net code="28" name="Net-(RN1-Pad11)">
+      <node ref="TP2" pin="1"/>
+      <node ref="RN1" pin="11"/>
+    </net>
+    <net code="29" name="/Program">
+      <node ref="SW1" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="30" name="/IO4">
+      <node ref="RN1" pin="2"/>
       <node ref="J3" pin="6"/>
       <node ref="J8" pin="8"/>
     </net>
-    <net code="26" name="/IO3">
-      <node ref="J3" pin="5"/>
-      <node ref="J8" pin="6"/>
+    <net code="31" name="/IO5">
+      <node ref="J8" pin="7"/>
+      <node ref="J3" pin="7"/>
+      <node ref="RN1" pin="1"/>
     </net>
-    <net code="27" name="/DIN">
-      <node ref="D1" pin="4"/>
-      <node ref="U1" pin="6"/>
-      <node ref="TP1" pin="1"/>
-    </net>
-    <net code="28" name="+5V">
-      <node ref="D1" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J12" pin="1"/>
-      <node ref="J10" pin="14"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C202" pin="1"/>
-      <node ref="C201" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="J7" pin="14"/>
-      <node ref="J11" pin="6"/>
-      <node ref="U201" pin="2"/>
-      <node ref="U201" pin="3"/>
-      <node ref="J11" pin="4"/>
-      <node ref="J11" pin="2"/>
-      <node ref="J9" pin="1"/>
-      <node ref="L201" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="29" name="/VBat">
-      <node ref="J5" pin="1"/>
-    </net>
-    <net code="30" name="/IO23">
-      <node ref="J7" pin="11"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="13"/>
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="32" name="+3V3">
-      <node ref="J5" pin="2"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J7" pin="12"/>
-      <node ref="C14" pin="1"/>
-      <node ref="J10" pin="12"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="J11" pin="8"/>
-      <node ref="C12" pin="1"/>
-    </net>
-    <net code="33" name="/IO9">
-      <node ref="J3" pin="11"/>
+    <net code="32" name="/IO9">
       <node ref="U1" pin="12"/>
+      <node ref="J3" pin="11"/>
     </net>
-    <net code="34" name="/IO8">
+    <net code="33" name="/IO8">
       <node ref="U1" pin="9"/>
       <node ref="J3" pin="10"/>
     </net>
-    <net code="35" name="/IO7">
+    <net code="34" name="/IO7">
       <node ref="J3" pin="9"/>
       <node ref="U1" pin="5"/>
     </net>
-    <net code="36" name="/IO6">
+    <net code="35" name="/IO6">
       <node ref="U1" pin="2"/>
       <node ref="J3" pin="8"/>
     </net>
-    <net code="37" name="/12-Boost/SS">
-      <node ref="C203" pin="1"/>
-      <node ref="U201" pin="4"/>
+    <net code="36" name="/IO13">
+      <node ref="J7" pin="1"/>
     </net>
-    <net code="38" name="Net-(C205-Pad1)">
+    <net code="37" name="/ON_OFF">
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="38" name="/VBat">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="39" name="/12-Boost/FB">
+      <node ref="R204" pin="1"/>
+      <node ref="U201" pin="8"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="40" name="/12-Boost/SS">
+      <node ref="U201" pin="4"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C205-Pad1)">
       <node ref="C205" pin="1"/>
       <node ref="R202" pin="1"/>
     </net>
-    <net code="39" name="/12-Boost/FB">
-      <node ref="R203" pin="2"/>
-      <node ref="U201" pin="8"/>
-      <node ref="R204" pin="1"/>
-    </net>
-    <net code="40" name="Net-(U201-Pad5)">
+    <net code="42" name="Net-(U201-Pad5)">
       <node ref="U201" pin="5"/>
     </net>
-    <net code="41" name="Net-(U201-Pad10)">
+    <net code="43" name="Net-(U201-Pad10)">
       <node ref="U201" pin="10"/>
     </net>
-    <net code="42" name="Net-(U201-Pad14)">
+    <net code="44" name="Net-(U201-Pad14)">
       <node ref="U201" pin="14"/>
     </net>
-    <net code="43" name="/12-Boost/FREQ">
-      <node ref="R201" pin="1"/>
+    <net code="45" name="/12-Boost/FREQ">
       <node ref="U201" pin="9"/>
+      <node ref="R201" pin="1"/>
     </net>
-    <net code="44" name="/12-Boost/SW">
-      <node ref="U201" pin="1"/>
+    <net code="46" name="+12V">
+      <node ref="J201" pin="2"/>
+      <node ref="D201" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="C207" pin="1"/>
+    </net>
+    <net code="47" name="/12-Boost/SW">
+      <node ref="L201" pin="2"/>
       <node ref="D201" pin="2"/>
+      <node ref="U201" pin="1"/>
       <node ref="U201" pin="15"/>
       <node ref="U201" pin="16"/>
-      <node ref="L201" pin="2"/>
     </net>
-    <net code="45" name="/12-Boost/FET_DRV">
+    <net code="48" name="/12-Boost/FET_DRV">
       <node ref="J201" pin="3"/>
       <node ref="Q201" pin="3"/>
     </net>
-    <net code="46" name="/12-Boost/COMP">
+    <net code="49" name="/12-Boost/COMP">
       <node ref="U201" pin="7"/>
       <node ref="R202" pin="2"/>
       <node ref="C204" pin="1"/>
-    </net>
-    <net code="47" name="+12V">
-      <node ref="R203" pin="1"/>
-      <node ref="C207" pin="1"/>
-      <node ref="J201" pin="1"/>
-      <node ref="D201" pin="1"/>
-      <node ref="C206" pin="1"/>
     </net>
   </nets>
 </export>

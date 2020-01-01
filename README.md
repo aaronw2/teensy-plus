@@ -1,5 +1,5 @@
 Teensy Plus
-Revision 3.2
+Revision 3.3
 
 Copyright (C) 2019 by Aaron Williams
 
@@ -89,8 +89,8 @@ J12 is also used for power.
 2. Ground
 
 J201 provides 12V at up to 500ma.
-1. +12V
-2. GND
+1. GND
+2. +12
 3. Switched ground (IO17 high enables ground), used for turning fans on/off
 
 Power: This board can either provide 5V or receive 5V from the Teensy.
@@ -113,6 +113,7 @@ C1, C2, C4, C8, C13     CAP CER 0.1UF 16V X7R 0603
 C3, C65, C12            CAP CER 1UF 25V X7R 0603
 C9, C10, C11, C14       CAP CER 10UF 10V X7R 0805
 D1                      WS2813-MINI neopixel, available from LCSC
+RN1                     47K Panasonic EXB-Q16P473J Resistor Netowrk 15
 U1                      SN74AHCT125N (TI only!!!)
 
 12V BOM:

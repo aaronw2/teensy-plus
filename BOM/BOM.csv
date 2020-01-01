@@ -1,6 +1,7 @@
 Refs,Value,Footprint,Quantity,DESC,MFR,MPN,SPR,SPN,SPURL
 L201,3.3uH,Aaron:L_Vishay_IHLP-1212,1,FIXED IND 3.3UH 2.7A 61 MOHM SMD,Vishay Dale,IHLP1212BZER3R3M11,Digikey,541-2567-1-ND,https://www.digikey.com/product-detail/en/IHLP1212BZER3R3M11/541-2567-1-ND
 U201,TPS55340-Q1,Aaron:QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias,1,IC REG BOOST ADJ 5.25A 16WQFN,TI,TPS55340RTER,Digikey,296-37677-1-ND,https://www.digikey.com/products/en?keywords=296-37677-1-ND
+SW1,SW_SPST_KMR2,Aaron:SW_SPST_KMR2,1,SWITCH TACTILE SPST-NO 0.05A 32V,C&K,KMR211NG LFS,Digikey,CKN10243CT-ND,https://www.digikey.com/product-detail/en/c-k/KMR211NG-LFS/CKN10243CT-ND/2176494
 C2;C13;C8;C4;C1;C202,0.1uF,Capacitor_SMD:C_0603_1608Metric,6,CAP CER 0.1UF 16V X7R 0603,Samsung,CL10B104KO8WPNC,Digikey,1276-6582-1-ND,https://www.digikey.com/products/en?keywords=1276-6582-1-ND
 C3;C12;C6;C207,1uF,Capacitor_SMD:C_0603_1608Metric,4,CAP CER 1UF 25V X7R 0603,Samsung,CL10B105KA8NNNC,Digikey,1276-1184-1-ND,https://www.digikey.com/products/en?keywords=1276-1184-1-ND
 C203,22nF,Capacitor_SMD:C_0603_1608Metric,1,CAP CER 0.022UF 50V X7R 0603,Samsung,CL10B223KB8WPNC,Digikey,1276-6534-1-ND,https://www.digikey.com/products/en?keywords=1276-6534-1-ND
@@ -22,7 +23,7 @@ D1,WS2813-MINI,LED_WS2813-mini:LED_WS2813-MINI-2,1,"RGB 620~625nm Red, 515~525nm
 U1,SN74AHCT125N,Package_DFN_QFN:Texas_S-PVQFN-N14,1,IC BUF NON-INVERT 5.5V 14VQFN,Texas Instruments,SN74AHCT125RGYR,Digikey,296-13910-1-ND,https://www.digikey.com/products/en?keywords=296-13910-1-ND
 Q201,BSS214NW,Package_TO_SOT_SMD:SOT-323_SC-70,1,MOSFET N-CH 20V 1.5A SOT323,Infineon,BSS214NWH6327XTSA1,Digikey,BSS214NWH6327XTSA1CT-ND,https://www.digikey.com/products/en?keywords=BSS214NWH6327XTSA1CT-ND
 R202,1.62k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 1.62K OHM 1% 1/10W 0603,Yageo,RC0603FR-071K62L,Digikey,311-1.62KHRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0603FR-071K62L/311-1.62KHRCT-ND/729816
-R205,100k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 100K OHM 1% 1/10W 0603,TE,CRG0603F100K,Digikey,A106046CT-ND,https://www.digikey.com/products/en?keywords=A106046CT-ND
 R204,10k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 10K OHM 1% 1/10W 0603,Vishay Dale,CRCW060310K0FKEC,Digikey,541-2979-1-ND,https://www.digikey.com/products/en?keywords=541-2979-1-ND
 R201,18.7K,Resistor_SMD:R_0603_1608Metric,1,RES SMD 18.7K OHM 1% 1/10W 0603,Yageo,RC0603FR-0718K7L,Digikey,311-18.7KHRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0603FR-0718K7L/311-18.7KHRCT-ND/729940
 R203,86.6k,Resistor_SMD:R_0603_1608Metric,1,RES SMD 86.6K OHM 1% 1/10W 0603,Vishay Dale,CRCW060386K6FKEA,Digikey,541-86.6KHCT-ND,https://www.digikey.com/products/en?keywords=541-86.6KHCT-ND
+RN1,47K,Resistor_SMD:R_Array_Convex_8x0602,1,RES ARRAY 15 RES 47K OHM 1506,Panasonic,EXB-Q16P473J,Digikey,U6473CT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/EXB-Q16P473J/U6473CT-ND/672854

@@ -1,4 +1,4 @@
-update=Sat 30 Nov 2019 09:25:28 PM PST
+update=Wed 01 Jan 2020 01:31:41 AM PST
 version=1
 last_client=kicad
 [general]
@@ -16,7 +16,7 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -36,6 +36,7 @@ TrackWidth5=0.4
 TrackWidth6=0.5
 TrackWidth7=0.8
 TrackWidth8=1
+TrackWidth9=1.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.508
@@ -75,12 +76,12 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
-Enabled=0
+Type=2
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
-Enabled=0
+Type=2
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
